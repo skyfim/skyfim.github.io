@@ -1,0 +1,27 @@
+.font {
+    font-family: "Gasoek One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 42px;
+    stroke-width: 1;
+    stroke: black;
+}
+
+.container {
+    max-width: 200;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: #090909;
+    width: 200px;
+    height: 70px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
