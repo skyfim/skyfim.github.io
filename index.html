@@ -12,8 +12,17 @@
 <body bgcolor="1E1E1E">
     <header class="header">
         <h1 class="font" style="text-align: center;">FREAX</h1>
+        <script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script>
     </header>
         <button class="font button" style="top: 22%;">MINT</button>
         <button class="font button" style="top: 44%;">BURN</button>
+
+        <div class="button" id="ton-connect" style="top: 66%; background-color: 1E1E1E;"></div>
+        <script>
+            const tonConnectUI = new TON_CONNECT_UI.TonConnectUI({
+                manifestUrl: 'https://<YOUR_APP_URL>/tonconnect-manifest.json',
+                buttonRootId: 'ton-connect'
+            });
+        </script>
 </body>
 </html>
